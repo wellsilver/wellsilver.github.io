@@ -13,3 +13,4 @@ Im gonna get a forum in too but that will be after v2
 
 Im probably going to make websites for a few other family members as well.
 the site is hosted via github's pages so there you go.
+I might switch the site to the experimental branch to see how github handles it
