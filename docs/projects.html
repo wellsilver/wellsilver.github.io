@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>wellsilver</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FFFFFF;
+  padding: 30px;
+  text-align: up;
+  font-size: 30px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #F1F1F1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FFFFFF;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>wellsilver</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="about me.html">About me</a></li>
+      <li><a href="social media.html">Social media</a></li>
+      <li><a href="art.html">Art</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="https://github.com/wellsilver/wellsilver.github.io">Github</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Projects:</h1>
+    <h2>Ongoing:</h2>
+    <p>This website</p>
+    <hr />
+    <h2>Finished:</h2>
+    <hr />
+    <h2>Abandoned:</h2>
+    <p> None! </p>
+  </article>
+</section>
+
+</body>
+</html>
