@@ -4,7 +4,7 @@ This is a personal site I use for all sorts of things, its pretty basic.
 
 Note: If you want to see the website in all its glory open the docs folder
 
-Note2: If you want to see V2 change the branch to experimental
+Note2: If you want to see V2 change the branch (Click the one that says main) to experimental
 
 
 # Incoming updates:
