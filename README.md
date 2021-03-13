@@ -6,6 +6,8 @@ Note: If you want to see the website in all its glory open the docs folder
 
 # Incoming updates:
 
-I am probably going to add more pages to the website in the coming weeks. However its pretty much finished now if you want to look at the v1 wich is a pretty cool
+I am probably going to add more pages to the website in the coming weeks.
 
 # Some info:
+
+ However its pretty much finished now if you want to look at the v1 wich is a pretty cool template go to releases adn then you can download the source code for v1. 
