@@ -10,4 +10,5 @@ I am probably going to add more pages to the website in the coming weeks.
 
 # Some info:
 
- However its pretty much finished now if you want to look at the v1 wich is a pretty cool template go to releases adn then you can download the source code for v1. 
+Its pretty much finished now. If you want to look at the v1 wich is a pretty cool template go to releases and then you can download the source for v1.
+My art teacher said to make a portfolio (optional) so I did, but didnt use wordpress or wix or any of that. I used HTML to make my own allbeit basic website that I have alot more control over than those website builders.
