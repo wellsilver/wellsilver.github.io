@@ -1,1 +1,0 @@
-holds all the error codes and stuff, like error 404
