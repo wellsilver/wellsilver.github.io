@@ -1,0 +1,1 @@
+holds image/file assets for main website, such as the favicon
