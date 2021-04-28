@@ -14,7 +14,7 @@ Its pretty much finished now. If you want to look at the v1 wich is a pretty coo
 My art teacher said to make a portfolio (optional) so I did, but didnt use wordpress or wix or any of that. I used HTML to make my own allbeit basic website that I have alot more control over than those website builders.
 I have learned alot and im going to learn alot more from this, im gonna try to mix it up with some java and css scripts to make it 2x better but I like its simplicity and animations might breach that look.
 
-----
-
-
-----
+---
+w
+a
+---
