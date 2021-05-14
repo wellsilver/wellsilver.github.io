@@ -31,6 +31,12 @@ nav {
   padding: 20px;
 }
 
+.Form {
+  border: 2px outset F1F1F1;
+  background-color: F1F1F1;    
+  text-align: center;
+}
+
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
@@ -84,17 +90,30 @@ section::after {
   </nav>
   
   <article>
-    <h2>Projects:</h2>
-    <h1>Ongoing:</h1>
-    <a href="https://github.com/wellsilver/wellsilver.github.io">This website</a>
-    <br>
-    <a href="https://wellsilver.github.io/Projects/Batch-Maze-Game">Batch-Maze-Game</a>
-    <hr />
-    <h1>Finished:</h1>
-    <hr />
-    <h1>"Temporarily" cancelled:</h1>
-    <p> Silver Project, creating a chat app by only using batch </p>
-    <a href="https://github.com/wellsilver/Silver-Project">Silver Project</a>
+    <h1>Home</h1>
+     
+    <div class=Form>
+      <p> if you arent older than 13 you cant do the form </p>
+      <!-- formspree.io thx -->
+      <form action="https://formspree.io/f/xyylkvwn"method="POST">
+      <label>
+      <fieldset id="fs-frm-selects">
+      <label for="timely">What cat do you like?</label>
+      <select name="timely" id="timely" required="">
+        <option value="Choose" selected="" disabled="">Choose</option>
+        <option value="1">Black</option>
+        <option value="3">Orange</option>
+        <option value="5">White</option>
+        <option value="6">Yes!</option>
+        <option value="7">What a cat?</option>
+      </select>
+      </label>
+
+  <!-- your other form fields go here -->
+
+      <button type="submit">Send</button>
+    </form>
+    </div>
   </article>
 </section>
 
