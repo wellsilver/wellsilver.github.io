@@ -5,65 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:type" content="other" />
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #FFFFFF;
-  padding: 30px;
-  text-align: up;
-  font-size: 30px;
-  color: black;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 15%;
-  height: 400px; /* only for demonstration, should be removed */
-  background: #F1F1F1;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #FFFFFF;
-  height: 400px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
@@ -74,14 +16,14 @@ section::after {
 <section>
   <nav>
     <ul>
-      <strong><li><a href="/index">home</a></li>
+      <li><a href="/index">home</a></li>
       <li><a href="/about me">About me</a></li>
       <li><a href="/social media">Social media</a></li>
       <li><a href="/art">Art</a></li>
       <li><a href="/projects">Projects</a></li>
       <li><a href="/others">other</a></li>
  <!--   template  <li><a href="https://github.com/wellsilver/wellsilver.github.io">Github</a></li> -->
-      </strong>
+      
     </ul>
   </nav>
   
