@@ -1,5 +1,17 @@
 <html>
 
-  <li><a href="/minecraft/a/1.18">1.18</a></li>
+  <li><button type="button" onclick="copy('1.18')">Copy direct</button> <a href="/minecraft/a/1.18">1.18</a></li>
+  <textarea readonly id="1.18" style="position:absolute;left:-9999px">
+    wellsilver.github.io/minecraft/a/1.18
+</textarea>
 
 </html>
+
+<script>
+    function copy(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>
