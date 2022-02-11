@@ -1,0 +1,2 @@
+#The EULA is allready filled out automaticly, when starting the server you are notified that you agree
+eula=true
