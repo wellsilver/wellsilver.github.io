@@ -47,23 +47,12 @@ section::after {
 
 /* Style the linkz */
 
-a:link {
-  color: green;
+a {
+text-decoration: none;
+color: blue;
 }
-
-
-a:visited {
-  color: green;
-}
-
-
 a:hover {
-  color: blue;
-}
-
-
-a:active {
-  color: green;
+  color: navy;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
